@@ -1,13 +1,17 @@
 {
   "presets": [
+    "@ava/stage-4",
+    "@ava/stage-4",
+    "react-native",
+    "stage-0",
+    "env",
     "babel-preset-expo",
     "react-native-stage-0/decorator-support",
-    "es2015",
-    "stage-0"
+
   ],
   "env": {
     "development": {
-      "plugins": ["transform-runtime","transform-react-jsx-source"]
+      "plugins": ["transform-react-jsx-source"]
     }
   }
 
